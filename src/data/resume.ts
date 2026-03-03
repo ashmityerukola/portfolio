@@ -32,7 +32,7 @@ export const resumeData = {
       degree: "Bachelor of Science in Computer Science, Minor in Business",
       logoUrl: "",
       end: "May 2027",
-      description: "Relevant Coursework: Discrete Structures, Computer Organization and Architecture, Data Structures and Algorithms, Information Management and the Cloud, Matrix Algebra. Organizations: Artificial Intelligence Club, Imagine Software Club, Spartan Hackers.",
+      description: "Relevant Coursework: Discrete Mathematics, Computer Organization and Architecture, Data Structures and Algorithms, Information Management and the Cloud, Linear Algebra, Probability and Statistics.",
     },
   ],
   work: [

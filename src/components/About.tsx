@@ -18,11 +18,6 @@ export function About() {
                     className="text-muted space-y-4 text-lg"
                 >
                     <p>{resumeData.about}</p>
-                    <p>
-                        When I'm not coding, I am actively involved on campus at the University
-                        of Michigan, participating in organizations like the Artificial
-                        Intelligence Club and Spartan Hackers.
-                    </p>
                 </motion.div>
 
                 <motion.div
