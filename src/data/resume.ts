@@ -4,9 +4,9 @@ export const resumeData = {
   location: "East Lansing, MI",
   locationLink: "https://www.google.com/maps/place/East+Lansing,+MI",
   about:
-    "An aspiring Software Engineer currently pursuing a Bachelor of Science in Computer Science with a Minor in Business at the University of Michigan. Passionate about backend engineering, API development, and creating structured, efficient software systems. Proven ability to automate workflows, debug complex architectures, and build robust applications.",
+    "An aspiring Software Engineer currently pursuing a Bachelor of Science in Data Science with a Minor in Business at the University of Michigan. Passionate about backend engineering, API development, and creating structured, efficient software systems. Proven ability to automate workflows, debug complex architectures, and build robust applications.",
   summary:
-    "I am a junior Computer Science student at the University of Michigan. My focus lies in systems programming and full-stack development. I have built diverse projects spanning from performant C++ applications to modern web apps using React and FastAPI. In my most recent role as a Technology Intern at All Covered, I automated device provisioning workflows, reducing manual setup time significantly. I'm always eager to learn and tackle complex technical challenges.",
+    "I am a junior Data Science student at the University of Michigan. My focus lies in systems programming and full-stack development. I have built diverse projects spanning from performant C++ applications to modern web apps using React and FastAPI. In my most recent role as a Technology Intern at All Covered, I automated device provisioning workflows, reducing manual setup time significantly. I'm always eager to learn and tackle complex technical challenges.",
   avatarUrl: "",
   personalWebsiteUrl: "https://ashmityerukola.com",
   contact: {
@@ -29,7 +29,7 @@ export const resumeData = {
     {
       school: "University of Michigan",
       href: "https://umich.edu",
-      degree: "Bachelor of Science in Computer Science, Minor in Business",
+      degree: "Bachelor of Science in Data Science, Minor in Business",
       logoUrl: "",
       end: "May 2027",
       description: "Relevant Coursework: Discrete Mathematics, Computer Organization and Architecture, Data Structures and Algorithms, Information Management and the Cloud, Linear Algebra, Probability and Statistics.",
