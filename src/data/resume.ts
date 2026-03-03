@@ -43,8 +43,8 @@ export const resumeData = {
       location: "New Hudson, MI",
       title: "Technology Intern - Automation & Systems",
       logoUrl: "",
-      start: "May 2024", // Adjusted to be past contextually based on "my last job was"
-      end: "Aug 2024",
+      start: "May 2025", // Adjusted to be past contextually based on "my last job was"
+      end: "Aug 2025",
       description:
         "Automated device provisioning workflows using scripting, reducing manual setup time and enabling configuration of 300+ devices per day. Debugged and resolved OS-level and software compatibility issues, improving deployment reliability across diverse hardware environments. Used Git and documentation best practices to maintain accurate asset tracking and reproducible technical workflows.",
     },
