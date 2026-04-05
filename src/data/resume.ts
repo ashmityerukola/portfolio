@@ -4,9 +4,9 @@ export const resumeData = {
   location: "East Lansing, MI",
   locationLink: "https://www.google.com/maps/place/East+Lansing,+MI",
   about:
-    "An aspiring Software Engineer currently pursuing a Bachelor of Science in Data Science with a Minor in Business at the University of Michigan. Passionate about backend engineering, API development, and creating structured, efficient software systems. Proven ability to automate workflows, debug complex architectures, and build robust applications.",
+    "An aspiring Software Engineer currently pursuing a Bachelor of Science in Computer Science with a Minor in Business at the University of Michigan. Passionate about backend engineering, API development, and creating structured, efficient software systems. Proven ability to automate workflows, debug complex architectures, and build robust applications.",
   summary:
-    "I am a junior Data Science student at the University of Michigan. My focus lies in systems programming and full-stack development. I have built diverse projects spanning from performant C++ applications to modern web apps using React and FastAPI. In my most recent role as a Technology Intern at All Covered, I automated device provisioning workflows, reducing manual setup time significantly. I'm always eager to learn and tackle complex technical challenges.",
+    "I am a junior Computer Science student at the University of Michigan. My focus lies in systems programming and full-stack development. I have built diverse projects spanning from performant C++ applications to modern web apps using React and Next.js. In my most recent role as a Software Engineer Intern at All Covered, I built automation pipelines for device provisioning, reducing manual setup time significantly. I'm always eager to learn and tackle complex technical challenges.",
   avatarUrl: "",
   personalWebsiteUrl: "https://ashmityerukola.com",
   contact: {
@@ -29,7 +29,7 @@ export const resumeData = {
     {
       school: "University of Michigan",
       href: "https://umich.edu",
-      degree: "Bachelor of Science in Data Science, Minor in Business",
+      degree: "Bachelor of Science in Computer Science",
       logoUrl: "",
       end: "May 2027",
       description: "Relevant Coursework: Discrete Mathematics, Computer Organization and Architecture, Data Structures and Algorithms, Information Management and the Cloud, Linear Algebra, Probability and Statistics.",
@@ -41,71 +41,81 @@ export const resumeData = {
       href: "https://www.allcovered.com/",
       badges: [],
       location: "New Hudson, MI",
-      title: "Technology Intern - Automation & Systems",
+      title: "Software Engineer Intern",
       logoUrl: "",
-      start: "May 2025", // Adjusted to be past contextually based on "my last job was"
+      start: "May 2025", 
       end: "Aug 2025",
       description:
-        "Automated device provisioning workflows using scripting, reducing manual setup time and enabling configuration of 300+ devices per day. Debugged and resolved OS-level and software compatibility issues, improving deployment reliability across diverse hardware environments. Used Git and documentation best practices to maintain accurate asset tracking and reproducible technical workflows.",
+        "Built automation pipelines provisioning 300+ devices per day using Python and Bash, reducing manual setup time by ~70% and enabling scalable deployments across multiple client environments. Developed standardized deployment scripts across 10+ hardware configurations, reducing configuration inconsistencies and cutting setup errors by ~40%. Diagnosed OS-level and software compatibility issues, increasing deployment success rates from ~85% to 98% and improving overall system reliability.",
     },
   ],
   skills: [
     "Python",
+    "TypeScript",
+    "Java",
     "C++",
     "C",
-    "Java",
-    "SQL (SQLite)",
+    "SQL",
     "JavaScript",
     "HTML/CSS",
+    "ARM Assembly",
     "React",
+    "Next.js",
     "FastAPI",
+    "NestJS",
+    "NextAuth.js",
     "Git",
     "Linux",
     "Google Cloud Platform",
+    "Supabase",
+    "SQLite",
+    "Pandas",
+    "NumPy",
+    "Socket.io",
+    "Monaco Editor"
   ],
   projects: [
     {
-      title: "Cologne Collection App",
+      title: "Concurrent Task Processing System",
       href: "",
-      dates: "2024",
       active: true,
       description:
-        "Built a full-stack web application enabling users to manage and review personal cologne collections, implementing CRUD functionality to store and retrieve fragrance data. Designed and integrated RESTful API endpoints with SQLite-based persistence, supporting dynamic updates and real-time synchronization between frontend and backend. Debugged frontend-backend integration issues and improved application reliability by testing API endpoints and refining request handling.",
+        "Implemented a thread-safe queue using mutexes and condition variables, eliminating busy-waiting and reducing CPU usage under load by ~25%. Designed a multi-producer, multi-consumer system handling 50+ concurrent threads, improving task throughput and ensuring safe parallel execution. Built concurrent test workloads to validate synchronization behavior, eliminating race conditions and ensuring consistent execution across stress tests.",
       technologies: [
-        "React",
-        "FastAPI",
-        "SQLite",
+        "C++",
+      ],
+      links: [],
+    },
+    {
+      title: "CodeCollab",
+      href: "",
+      active: true,
+      description:
+        "Developed a real-time collaborative code editor with Monaco Editor, enabling seamless collaboration between developers. Built a robust backend with NestJS and PostgreSQL, handling 1,000+ active sessions and ensuring real-time synchronization. Reduced collaboration delays by 30% by integrating Socket.io for real-time data syncing.",
+      technologies: [
+        "TypeScript",
+        "Next.js",
+        "NestJS",
+        "Tailwind CSS",
+        "Socket.io",
+        "Supabase",
+        "NextAuth.js",
+        "PostgreSQL"
+      ],
+      links: [],
+    },
+    {
+      title: "Algorithmic Trading Strategy Backtester",
+      href: "",
+      active: true,
+      description:
+        "Developed a trading backtesting engine that simulated 10-30 trades across ~250 trading days by implementing moving-average crossover logic and portfolio simulation in Python, generating actionable performance insights. Evaluated strategy effectiveness as measured by Sharpe ratio (~0.8-1.5), drawdown (~5-15%), and return vs. benchmark by designing vectorized financial computations and exposing results through a FastAPI-based API for configurable analysis.",
+      technologies: [
         "Python",
-        "JavaScript",
-      ],
-      links: [],
-    },
-    {
-      title: "Workout Designer",
-      href: "",
-      dates: "2024",
-      active: true,
-      description:
-        "Designed a program to automate personalized workout planning for users based on goals, available equipment, and weekly schedule. Implemented modular classes and leveraged STL containers to handle dynamic user input, generate workout splits, and map exercises to muscle groups. Delivered a fully functional C++ application that outputs structured daily workout routines, demonstrating algorithmic problem-solving and scalable object-oriented design.",
-      technologies: [
-        "C++",
-        "STL",
-        "Object-Oriented Programming",
-      ],
-      links: [],
-    },
-    {
-      title: "Crypto Exchange Simulator",
-      href: "",
-      dates: "2023",
-      active: true,
-      description:
-        "Implemented core exchange functionality including buy/sell order validation, partial order fills, and trade execution logic within a simulated crypto market. Used C++ STL containers (map, vector) to manage user portfolios, open orders, filled orders, and trade history. Developed object-oriented classes (Exchange, UserAccount) to model user balances, order placement, and asset transfers. Practiced separation of interface and implementation using header/source files.",
-      technologies: [
-        "C++",
-        "STL",
-        "Operator Overloading",
-        "Algorithms",
+        "FastAPI",
+        "Pandas",
+        "NumPy",
+        "yfinance"
       ],
       links: [],
     },
