@@ -23,7 +23,6 @@ export function Projects() {
                         <div>
                             <div className="flex justify-between items-center mb-6">
                                 <Folder className="text-blue-500 h-10 w-10 stroke-1" />
-                                <span className="text-xs font-mono text-muted">{project.dates}</span>
                             </div>
                             <h3 className="text-xl font-bold text-foreground mb-3 group-hover:text-blue-400 transition-colors">
                                 {project.title}
