@@ -10,7 +10,7 @@ export const resumeData = {
   avatarUrl: "",
   personalWebsiteUrl: "https://ashmityerukola.com",
   contact: {
-    email: "yerukol2@msu.edu",
+    email: "ashmity@umich.edu",
     tel: "734-972-8891",
     social: {
       GitHub: {
