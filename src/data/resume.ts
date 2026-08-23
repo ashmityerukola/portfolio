@@ -6,7 +6,7 @@ export const resumeData = {
   about:
     "An aspiring Software Engineer currently pursuing a Bachelor of Science in Computer Science at the University of Michigan. Passionate about backend engineering, data systems, and creating structured, efficient software solutions. Proven ability to automate workflows, debug complex architectures, and build robust applications.",
   summary:
-    "I am a junior Computer Science student at the University of Michigan. My focus lies in systems programming and full-stack development. I have built diverse projects spanning from performant C++ applications to modern web apps using React and Next.js. Currently, I am a Software Developer Intern at Georgia Tech Research Institute. Previously, as a Software Engineer Intern at All Covered, I built automation pipelines for device provisioning, reducing manual setup time significantly. I'm always eager to learn and tackle complex technical challenges.",
+    "I am a Computer Science student at the University of Michigan. My focus lies in systems programming and full-stack development. I have built diverse projects spanning from performant C++ applications to modern web apps using React and Next.js. I have professional experience as a Software Developer Intern at Georgia Tech Research Institute and as a Software Engineer Intern at All Covered. I'm always eager to learn and tackle complex technical challenges.",
   avatarUrl: "",
   personalWebsiteUrl: "https://ashmityerukola.org",
   contact: {
@@ -31,7 +31,7 @@ export const resumeData = {
       href: "https://umich.edu",
       degree: "Bachelor of Science in Computer Science",
       logoUrl: "",
-      end: "May 2027",
+      end: "May 2028",
       description: "GPA: 3.7/4.0. Relevant Coursework: Data Structures & Algorithms, Computer Organization & Architecture, Discrete Mathematics, Linear Algebra, Probability & Statistics, Cloud Computing.",
     },
   ],
@@ -44,8 +44,9 @@ export const resumeData = {
       title: "Software Developer Intern",
       logoUrl: "",
       start: "May 2026",
-      end: "Present",
-      description: "",
+      end: "Aug 2026",
+      description:
+        "Remediated all 84 JavaScript vulnerabilities (including command injection and path traversal flaws) from GitLab SAST and dependency scanning, and built a reusable 4-function input-validation module to standardize sanitization going forward—clearing the security gate with zero regressions across 200+ tests. Extended a Wireshark testing tool from supporting a single protocol to supporting multiple protocols, by using Python to orchestrate ANTLR-based test programs running against each other in Docker. Added support for a new IDL version across the Wireshark dissector, RTI DDS, and ANTLR components, updating protocol definitions and build configuration in each so traffic using the updated schema decoded correctly end to end.",
     },
     {
       company: "All Covered",
@@ -73,30 +74,22 @@ export const resumeData = {
     "React",
     "Next.js",
     "FastAPI",
-    "NestJS",
-    "NextAuth.js",
     "Git",
     "Linux",
     "Google Cloud Platform",
     "Supabase",
     "SQLite",
+    "Docker",
+    "GitLab",
+    "Podman",
+    "Wireshark",
+    "ANTLR",
     "Pandas",
     "NumPy",
     "Socket.io",
     "Monaco Editor"
   ],
   projects: [
-    {
-      title: "Concurrent Task Processing System",
-      href: "",
-      active: true,
-      description:
-        "Implemented a thread-safe queue using mutexes and condition variables, eliminating busy-waiting and reducing CPU usage under load by ~25%. Designed a multi-producer, multi-consumer system handling 50+ concurrent threads, improving task throughput and ensuring safe parallel execution. Built concurrent test workloads to validate synchronization behavior, eliminating race conditions and ensuring consistent execution across stress tests.",
-      technologies: [
-        "C++",
-      ],
-      links: [],
-    },
     {
       title: "Spartan Finder",
       href: "",
