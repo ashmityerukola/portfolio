@@ -4,9 +4,9 @@ export const resumeData = {
   location: "Ann Arbor, MI",
   locationLink: "https://www.google.com/maps/place/Ann+Arbor,+MI",
   about:
-    "An aspiring Software Engineer currently pursuing a Bachelor of Science in Data Science at the University of Michigan. Passionate about backend engineering, data systems, and creating structured, efficient software solutions. Proven ability to automate workflows, debug complex architectures, and build robust applications.",
+    "An aspiring Software Engineer currently pursuing a Bachelor of Science in Computer Science at the University of Michigan. Passionate about backend engineering, data systems, and creating structured, efficient software solutions. Proven ability to automate workflows, debug complex architectures, and build robust applications.",
   summary:
-    "I am a junior Data Science student at the University of Michigan. My focus lies in systems programming and full-stack development. I have built diverse projects spanning from performant C++ applications to modern web apps using React and Next.js. Currently, I am a Software Developer Intern at Georgia Tech Research Institute. Previously, as a Software Engineer Intern at All Covered, I built automation pipelines for device provisioning, reducing manual setup time significantly. I'm always eager to learn and tackle complex technical challenges.",
+    "I am a junior Computer Science student at the University of Michigan. My focus lies in systems programming and full-stack development. I have built diverse projects spanning from performant C++ applications to modern web apps using React and Next.js. Currently, I am a Software Developer Intern at Georgia Tech Research Institute. Previously, as a Software Engineer Intern at All Covered, I built automation pipelines for device provisioning, reducing manual setup time significantly. I'm always eager to learn and tackle complex technical challenges.",
   avatarUrl: "",
   personalWebsiteUrl: "https://ashmityerukola.org",
   contact: {
@@ -29,7 +29,7 @@ export const resumeData = {
     {
       school: "University of Michigan",
       href: "https://umich.edu",
-      degree: "Bachelor of Science in Data Science",
+      degree: "Bachelor of Science in Computer Science",
       logoUrl: "",
       end: "May 2027",
       description: "GPA: 3.7/4.0. Relevant Coursework: Data Structures & Algorithms, Computer Organization & Architecture, Discrete Mathematics, Linear Algebra, Probability & Statistics, Cloud Computing.",
